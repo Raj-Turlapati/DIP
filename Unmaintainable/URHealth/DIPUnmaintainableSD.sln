@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URHealth", "URHealth\URHealth.csproj", "{B8BEC753-0062-4DC9-AD55-1C5F3F49BAA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URHealthClient", "URHealthClient\URHealthClient.csproj", "{ED20862F-3736-4B67-95CF-238FA5F728C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8BEC753-0062-4DC9-AD55-1C5F3F49BAA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BEC753-0062-4DC9-AD55-1C5F3F49BAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BEC753-0062-4DC9-AD55-1C5F3F49BAA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BEC753-0062-4DC9-AD55-1C5F3F49BAA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED20862F-3736-4B67-95CF-238FA5F728C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED20862F-3736-4B67-95CF-238FA5F728C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED20862F-3736-4B67-95CF-238FA5F728C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED20862F-3736-4B67-95CF-238FA5F728C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
