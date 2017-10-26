@@ -9,9 +9,9 @@ namespace URHealth.Repository
 {
     public class ProductRepository : IProductRepository
     {
-        private IDBContext _dbContext; 
+        private IProductContext _dbContext; 
 
-        public ProductRepository(IDBContext dbContext)
+        public ProductRepository(IProductContext dbContext)
         {
             _dbContext = dbContext;
         }

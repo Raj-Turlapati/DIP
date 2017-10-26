@@ -7,12 +7,12 @@ using URHealth.Model;
 
 namespace URHealth.Repository
 {
-    public class DBContext : IDBContext
+    public class ProductContext : IProductContext
     {
         private List<Product> _products;
         private List<Category> _categories;
 
-        public DBContext()
+        public ProductContext()
         {
             _categories = new List<Category>();
 

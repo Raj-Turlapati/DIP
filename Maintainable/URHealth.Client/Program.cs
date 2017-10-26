@@ -14,7 +14,7 @@ namespace URHealth.Client
     {
         static void Main(string[] args)
         {
-            IDBContext dbContext = new DBContext();
+            IProductContext dbContext = new ProductContext();
             IProductRepository productRepository = new ProductRepository(dbContext);
             ProductService productService = new ProductService(productRepository);
             IList<Product> products = productService.GetAllProducts();
