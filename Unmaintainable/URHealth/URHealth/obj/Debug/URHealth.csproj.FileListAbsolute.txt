@@ -1,5 +1,0 @@
-D:\SDWork\S.O.L.I.D\D.I.P\Unmaintainable\URHealth\URHealth\bin\Debug\URHealth.dll
-D:\SDWork\S.O.L.I.D\D.I.P\Unmaintainable\URHealth\URHealth\bin\Debug\URHealth.pdb
-D:\SDWork\S.O.L.I.D\D.I.P\Unmaintainable\URHealth\URHealth\obj\Debug\URHealth.dll
-D:\SDWork\S.O.L.I.D\D.I.P\Unmaintainable\URHealth\URHealth\obj\Debug\URHealth.pdb
-D:\SDWork\S.O.L.I.D\D.I.P\Unmaintainable\URHealth\URHealth\obj\Debug\URHealth.csprojResolveAssemblyReference.cache

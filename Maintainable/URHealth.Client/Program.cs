@@ -14,18 +14,16 @@ namespace URHealth.Client
     {
         static void Main(string[] args)
         {
-            IProductContext dbContext = new ProductContext();
-            IProductRepository productRepository = new ProductRepository(dbContext);
+            IProductContext productContext = new ProductContext();
+            IProductRepository productRepository = new ProductRepository(productContext);
             ProductService productService = new ProductService(productRepository);
             IList<Product> products = productService.GetAllProducts();
 
-            Console.WriteLine("Number of products in store {0}", products.Count);
-            Console.WriteLine("***********************************************");
-            Console.WriteLine("Category || Product Name || Price || Calories");
-            Console.WriteLine("***********************************************");
+            Console.WriteLine("Number of products in store {0} \n", products.Count);
+
             foreach (Product product in products)
             {
-                Console.WriteLine("{0} || {1} || Rs.{2} || {3} ", product.Category.Name, product.Name, product.Price, product.Calories);
+                Console.WriteLine("Meal: {0}, Name: {1}, Price: Rs.{2}, Calories: {3}", product.Category.Name, product.Name, product.Price, product.Calories);
 
             }
             Console.Read();
